@@ -58,4 +58,12 @@ main {
     margin-top: 20%;
   }
   
+  .nav-btn {
+    height: 3em;
+    width: 3em;
+    padding: 0.6em;
+    animation-duration: 0.5s;
+    animation-name: obj-scale;
+  }
+  
   
