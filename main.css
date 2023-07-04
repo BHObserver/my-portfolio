@@ -14,3 +14,12 @@ main {
     height: 1em;
   }
   
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: #fff;
+  }
+  
+ 
