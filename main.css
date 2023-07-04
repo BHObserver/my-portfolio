@@ -81,4 +81,9 @@ main {
     align-items: center;
   }
   
+  .icons li {
+    list-style-type: none;
+    margin-right: 1em;
+  }
+  
   
