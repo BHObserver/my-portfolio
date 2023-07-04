@@ -66,4 +66,11 @@ main {
     animation-name: obj-scale;
   }
   
-  
+  #logo {
+    padding: 0.6em 0.75em;
+    width: 3em;
+    height: 3em;
+    border-radius: 1.25em;
+    animation-duration: 0.5s;
+    animation-name: obj-scale;
+  }
