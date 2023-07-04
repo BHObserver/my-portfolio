@@ -65,6 +65,10 @@ main {
   text-align: center;
 }
 
+.bottom-arrow {
+  margin-top: 20%;
+}
+
 .nav-btn {
   height: 3em;
   width: 3em;
