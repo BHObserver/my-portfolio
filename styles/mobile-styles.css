@@ -171,6 +171,16 @@
       width: 375px;
     }
   
+    .skills {
+      border: 1px solid #c1c7d0;
+      border-radius: 8px;
+      background-color: #ebf0ee;
+      padding: 2px;
+      padding-top: 2rem;
+      margin-top: 20px;
+      height: 336px;
+      width: 327px;
+    }
 
   }
   
