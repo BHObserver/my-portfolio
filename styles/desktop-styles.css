@@ -182,5 +182,11 @@
       max-width: 369px;
       max-height: 316px;
     }
+  
+    .skills img {
+      margin-bottom: 10px;
+      width: 30%;
+      height: 36%;
+    }
 
   }
