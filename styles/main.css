@@ -26,3 +26,10 @@ main {
   height: 0;
 }
 
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background: #fff;
+}
