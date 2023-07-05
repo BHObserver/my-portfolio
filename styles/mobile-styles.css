@@ -4,6 +4,14 @@
       background-repeat: no-repeat;
       background-size: contain;
     }
+  
+    .nav-desktop {
+      display: none;
+    }
+  
+    .header {
+      display: block;
+    }
 
   }
   
