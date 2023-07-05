@@ -48,5 +48,10 @@
       height: 100%;
       max-width: 1180px;
     }
+  
+    .works h2 {
+      font-size: 28px;
+    }
+  
 
   }
