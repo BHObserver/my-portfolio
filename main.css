@@ -135,7 +135,15 @@ main {
   list-style-type: none;
 }
 
-
+.tag {
+  margin-top: 10px;
+  background-color: #ebf0ee;
+  padding: 7.7px;
+  height: 14px;
+  white-space: nowrap;
+  margin-right: 8px;
+  
+}
 
 #logo {
   padding: 0.6em 0.75em;
