@@ -102,6 +102,15 @@ main {
   border-radius: 8px;
 }
 
+.project-details {
+  display: flex;
+  flex-direction: column;
+  color: #3a4a42;
+  background-color: #fff;
+  height: 14.5em;
+  border-radius: 8px;
+}
+
 
 
 #logo {
