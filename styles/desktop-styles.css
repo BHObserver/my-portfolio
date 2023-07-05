@@ -364,4 +364,16 @@
       margin: 0;
     }
   
+    .supporting-text {
+      color: #172b4d;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.47vw;
+      line-height: 1.6em;
+      text-align: center;
+      animation-duration: 0.5s;
+      animation-name: obj-scale;
+    }
+  
   }
