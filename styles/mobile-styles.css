@@ -265,6 +265,9 @@
       display: none;
     }
   
+    .mobile-form {
+      display: block;
+    }
 
   }
   
