@@ -39,3 +39,13 @@ main {
   flex-direction: row;
   list-style: none;
 }
+
+.nav-desktop a {
+  margin-right: 3em;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #344563;
+}
