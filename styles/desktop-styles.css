@@ -57,5 +57,20 @@
       font-size: 3vw;
       font-weight: 800;
     }
+  
+    .project-grid {
+      display: grid;
+      align-self: center;
+      justify-self: center;
+      grid-template-columns: repeat(3, minmax(210px, 369px));
+      grid-template-rows: repeat(2, 1fr);
+      border-radius: 8px;
+      padding: 20px;
+      row-gap: 15px;
+      column-gap: 10px;
+      height: 100%;
+  
+      /* width: 100%; */
+    }
 
   }
