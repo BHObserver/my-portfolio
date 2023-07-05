@@ -113,5 +113,11 @@
       height: 100%;
       border-radius: 8px;
     }
+  
+    .project-details ul {
+      justify-content: center;
+      margin: 0;
+    }
+  
 
   }
