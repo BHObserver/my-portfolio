@@ -319,4 +319,9 @@
       resize: none;
     }
   
+    .desktop-form {
+      display: flex;
+      flex-direction: row;
+    }
+  
   }
