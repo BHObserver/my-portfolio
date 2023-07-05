@@ -33,3 +33,9 @@ main {
   width: 100%;
   background: #fff;
 }
+
+.nav-desktop ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
