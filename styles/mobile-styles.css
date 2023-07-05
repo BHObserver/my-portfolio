@@ -147,6 +147,21 @@
       height: 0;
     }
   
+    .tag {
+      margin-top: 10px;
+      background-color: #ebf0ee;
+      padding: 10.7px;
+      height: 14px;
+      font-size: 12px;
+      white-space: nowrap;
+      margin-right: 8px;
+      border: none;
+      color: #3a4a42;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      border-radius: 4px;
+    }
 
   }
   
