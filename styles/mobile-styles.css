@@ -39,6 +39,12 @@
       width: 342px;
     }
   
+    .text-container .intro {
+      display: block;
+      margin-left: 1em;
+      width: 250px;
+    }
+  
 
   }
   
