@@ -260,6 +260,11 @@
       font-style: italic;
       font-weight: 400;
     }
+  
+    .desktop-form {
+      display: none;
+    }
+  
 
   }
   
