@@ -81,6 +81,13 @@ main {
   margin-bottom: 20%;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  width: 19.8em;
+  border-radius: 8px;
+}
 
 
 #logo {
