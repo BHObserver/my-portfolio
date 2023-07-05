@@ -173,3 +173,8 @@ main {
   font-weight: 600;
 }
 
+.contact .icon-container {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
