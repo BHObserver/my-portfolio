@@ -4,6 +4,12 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
+
+  .about-me .btn-container {
+    width: 376px;
+    height: 70px;
+    margin-bottom: 3em;
+  }
 }
 
 body {
@@ -38,7 +44,6 @@ main {
   align-items: center;
   max-width: 376px;
   width: 86%;
-  height: 696px;
 }
 
 .text-container {
