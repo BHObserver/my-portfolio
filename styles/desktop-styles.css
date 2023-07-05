@@ -188,5 +188,12 @@
       width: 30%;
       height: 36%;
     }
+  
+    .skill-tag-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
 
   }
