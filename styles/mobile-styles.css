@@ -12,6 +12,16 @@
     .header {
       display: block;
     }
+  
+    .primary {
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.8em;
+      line-height: 1.2em;
+    }
+  
 
   }
   
