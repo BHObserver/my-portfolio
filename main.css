@@ -277,6 +277,19 @@ main {
   align-items: center;
 }
 
+.form input {
+  height: 48px;
+  width: 327px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  color: #6b778c;
+  margin: 10px;
+  padding-left: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
 
 
 
