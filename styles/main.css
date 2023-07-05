@@ -165,3 +165,11 @@ main {
   border-radius: 8px;
   list-style-type: none;
 }
+
+.skill-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 600;
+}
+
