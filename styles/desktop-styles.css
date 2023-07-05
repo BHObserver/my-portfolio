@@ -119,5 +119,24 @@
       margin: 0;
     }
   
+    .tag {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ebf0ee;
+      max-height: calc(8.2px + 0.926917vw);
+      height: 100%;
+      margin-top: 2px;
+      margin-right: 4px;
+      padding: calc(0.5px + 0.535917vw);
+      font-size: calc(2.3px + 0.926917vw);
+      white-space: nowrap;
+      border: none;
+      color: #3a4a42;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      border-radius: 4px;
+    }
 
   }
