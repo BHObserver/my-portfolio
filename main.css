@@ -129,6 +129,13 @@ main {
   line-height: 32px;
 }
 
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+
 
 #logo {
   padding: 0.6em 0.75em;
