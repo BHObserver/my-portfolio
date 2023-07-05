@@ -90,3 +90,30 @@ main {
   height: 4.7vw;
 }
 
+/* .tag {
+  margin-top: 10px;
+  background-color: #ebf0ee;
+  padding: 7.7px;
+  height: 14px;
+  font-size: 12px;
+  white-space: nowrap;
+  margin-right: 8px;
+  border: none;
+  color: #3a4a42;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 4px;
+} */
+
+/* @keyframes obj-scale {
+  from {
+    transform: scale(0.5);
+  }
+
+  to {
+    transform: scale(1);
+  }
+} */
+
