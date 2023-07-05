@@ -152,6 +152,13 @@ main {
   border-radius: 4px;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+
 #logo {
   padding: 0.6em 0.75em;
   width: 3em;
