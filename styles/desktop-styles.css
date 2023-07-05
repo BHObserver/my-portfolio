@@ -376,4 +376,9 @@
       animation-name: obj-scale;
     }
   
+    .email {
+      display: none;
+    }
+  
+  
   }
