@@ -341,6 +341,13 @@ main {
   color: #42526e;
 }
 
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 1em;
+}
+
 .contact .icon-container {
   margin-top: 20px;
   padding-bottom: 20px;
@@ -353,13 +360,6 @@ button:hover {
 
 button:active {
   background: #008552;
-}
-
-.icon-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-right: 1em;
 }
 
 .icons {
