@@ -111,6 +111,13 @@ main {
   border-radius: 8px;
 }
 
+.project-details ul {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+}
+
 
 
 #logo {
