@@ -88,6 +88,14 @@
     .works {
       width: 327px;
     }
+  
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-rows: repeat(6, 1fr);
+      border-radius: 8px;
+    }
+  
 
   }
   
