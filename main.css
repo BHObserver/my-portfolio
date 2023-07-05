@@ -169,6 +169,16 @@ main {
   border-radius: 4px;
 }
 
+.qualifications {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 376px;
+}
+
+
+
 #logo {
   padding: 0.6em 0.75em;
   width: 3em;
