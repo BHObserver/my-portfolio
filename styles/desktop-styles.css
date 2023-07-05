@@ -195,5 +195,21 @@
       align-items: center;
       width: 100%;
     }
+  
+    .skill-tag {
+      background-color: #fff;
+      border: none;
+      color: #36b37e;
+      padding: 8px 10px;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: calc(0.4px + 0.926917vw);
+      margin-top: 1vw;
+      margin-left: 2px;
+      margin-right: 2px;
+      border-radius: 4px;
+      list-style-type: none;
+    }
 
   }
