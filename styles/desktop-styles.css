@@ -216,5 +216,9 @@
       margin: 0;
       font-size: 2vw;
     }
+  
+    .skills div ul {
+      padding: 0;
+    }
 
   }
