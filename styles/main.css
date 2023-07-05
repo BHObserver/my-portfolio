@@ -140,3 +140,12 @@ main {
   background: #36b37f;
   border-radius: 4px;
 }
+
+.skills ul {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
