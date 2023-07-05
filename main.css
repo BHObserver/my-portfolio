@@ -169,6 +169,20 @@ main {
   border-radius: 4px;
 }
 
+.resume-btn {
+  border: none;
+  white-space: nowrap;
+  color: #fff;
+  width: 160px;
+  height: 47px;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 500;
+  background: #36b37f;
+  border-radius: 4px;
+}
+
+
 .qualifications {
   display: flex;
   flex-direction: column;
