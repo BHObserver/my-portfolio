@@ -246,5 +246,9 @@
       text-align: center;
       padding-bottom: 2rem;
     }
+  
+    .about-me .btn-container {
+      width: 100%;
+    }
 
   }
