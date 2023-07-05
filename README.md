@@ -78,6 +78,8 @@ Example commands:
   
   cd Portfolio
 ```
+### Usage
+User need to download or clone the code and open index.html file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,9 +119,9 @@ Contributions, issues, and feature requests are welcome!
 
 <!-- ACKNOWLEDGEMENTS -->
 
-I would like to say that, I am really greatful to the Microverse community.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to say that, I am really greatful to the Microverse community.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
