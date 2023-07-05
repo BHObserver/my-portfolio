@@ -96,6 +96,12 @@ main {
   border: 1px solid #c1c7d0;
 }
 
+.img-container {
+  background-color: #ebf0ee;
+  height: 15em;
+  border-radius: 8px;
+}
+
 
 
 #logo {
