@@ -10,3 +10,12 @@ main {
   animation-duration: 0.5s;
   animation-name: obj-scale;
 }
+
+.header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  margin-bottom: 3.2em;
+  height: 1em;
+}
+
