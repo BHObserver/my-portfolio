@@ -149,3 +149,19 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.skill-tag {
+  background-color: #fff;
+  border: none;
+  color: #36b37e;
+  padding: 10px 12px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 8px;
+  list-style-type: none;
+}
