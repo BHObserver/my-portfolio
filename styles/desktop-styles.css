@@ -72,5 +72,14 @@
   
       /* width: 100%; */
     }
+  
+    .project-container {
+      border-radius: 8px;
+      background-color: #ebf0ee;
+      border: 1px solid #c1c7d0;
+      aspect-ratio: 3/2;
+      max-width: 369px;
+      max-height: 474px;
+    }
 
   }
