@@ -14,6 +14,13 @@
     background-position-x: left;
     background-position-y: bottom;
   }
+
+  .about-me {
+    background-image: url(assets/aboutme-top.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+  }
 }
 
 body {
