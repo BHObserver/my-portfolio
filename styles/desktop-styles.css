@@ -23,5 +23,12 @@
       height: 70vw;
       margin-bottom: 30px;
     }
+  
+    .text-container {
+      margin-top: 3.3rem;
+      max-width: 100%;
+      width: 56.9vw;
+    }
+  
 
   }
