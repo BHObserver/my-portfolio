@@ -53,5 +53,9 @@
       font-size: 28px;
     }
   
+    .text-container .intro {
+      font-size: 3vw;
+      font-weight: 800;
+    }
 
   }
