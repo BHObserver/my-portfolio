@@ -33,6 +33,12 @@
       animation-duration: 0.5s;
       animation-name: obj-scale;
     }
+  
+    .text-container {
+      max-width: 367px;
+      width: 342px;
+    }
+  
 
   }
   
