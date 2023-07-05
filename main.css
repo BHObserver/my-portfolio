@@ -9,6 +9,10 @@
     width: 376px;
     height: 70px;
     margin-bottom: 3em;
+    background-image: url(assets/aboutme-background.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
   }
 }
 
