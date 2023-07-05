@@ -145,5 +145,16 @@
       align-items: center;
       margin-top: 0.6vw;
     }
+  
+    .see-project-btn {
+      border: none;
+      color: #fff;
+      width: 7.5vw;
+      height: 3vw;
+      padding: 7px 0 7px 0;
+      font-size: calc(2.3px + 0.926917vw);
+      background: #36b37f;
+      border-radius: 4px;
+    }
 
   }
