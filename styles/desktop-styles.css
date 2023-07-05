@@ -92,5 +92,15 @@
       font-size: 1.6vw;
       line-height: 2vw;
     }
+  
+    .img-container {
+      background-color: #ebf0ee;
+      max-width: 369px;
+  
+      /* height: 9rem; */
+      max-height: 252px;
+      height: 100%;
+      border-radius: 8px;
+    }
 
   }
