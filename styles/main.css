@@ -81,3 +81,12 @@ main {
   margin-bottom: 20%;
   align-self: center;
 }
+
+.tech-stack {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  height: 4.7vw;
+}
+
