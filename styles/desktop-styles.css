@@ -276,4 +276,9 @@
       color: #172b4d;
       margin: 10px 0 10px 0;
     }
+  
+    .contact-heading-container h2 {
+      font-size: 1.5vw;
+    }
+  
   }
