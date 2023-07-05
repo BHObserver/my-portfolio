@@ -331,4 +331,8 @@
       padding-left: 10px;
     }
   
+    .mobile-form {
+      display: none;
+    }
+  
   }
