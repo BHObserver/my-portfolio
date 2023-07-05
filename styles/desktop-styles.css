@@ -355,4 +355,13 @@
       border-radius: 4px;
     }
   
+    .primary {
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 3.4vw;
+      margin: 0;
+    }
+  
   }
