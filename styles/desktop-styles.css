@@ -156,5 +156,15 @@
       background: #36b37f;
       border-radius: 4px;
     }
+  
+    .qualifications {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      width: 85%;
+      height: 100%;
+      gap: 12px;
+    }
 
   }
