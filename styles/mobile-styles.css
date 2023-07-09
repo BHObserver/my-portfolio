@@ -274,4 +274,28 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .mobile-menu {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    position: fixed;
+  }
+
+  .cross {
+    display: none;
+    float: right;
+    background-image: url(../assets/cross.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    width: 24px;
+    height: 24px;
+    margin: 50px;
+  }
 }
