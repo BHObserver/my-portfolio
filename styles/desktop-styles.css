@@ -330,7 +330,7 @@
 
   .desktop-form input {
     width: 100%;
-    max-width: 660px;
+    max-width: 768px;
     max-height: 48px;
     height: 75%;
     border-radius: 4px;
