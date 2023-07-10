@@ -103,9 +103,7 @@ Example commands:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-[ ] **[Desktop Version Changes]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**[Desktop Version Changes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
