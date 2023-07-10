@@ -129,14 +129,14 @@
     margin-top: 2px;
     margin-right: 4px;
     padding: calc(0.5px + 0.535917vw);
-    font-size: calc(2.3px + 0.926917vw);
+    font-size: calc(0.7px + 0.926917vw);
     white-space: nowrap;
     border: none;
     color: #3a4a42;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    border-radius: 4px;
+    font-weight: 700;
+    border-radius: 2px;
   }
 
   .btn-container {
