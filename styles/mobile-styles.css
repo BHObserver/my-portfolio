@@ -16,8 +16,13 @@
   .nav-mobile ul{
     display: flex;
     flex-direction: column;
+    list-style-type: none;
     margin-top: 70px;
     padding-left: 20px;
+  }
+
+  .nav-mobile a {
+    text-decoration: none;
   }
 
   .nav-mobile ul li {
