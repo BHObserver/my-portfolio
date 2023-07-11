@@ -1,4 +1,6 @@
 /* eslint-disable linebreak-style */
+
+/* Add mobile menue */
 const navBtn = document.querySelector('.nav-btn');
 const header = document.querySelector('.header-desktop');
 const cross = document.querySelector('.cross');
@@ -22,5 +24,13 @@ navItems.forEach((element) => {
     header.classList.remove('mobile-menu');
     cross.style.display = 'none';
     navMobile.style.display = 'none';
+  });
+});
+
+/* Add pop up */
+const seeProjectBtn = document.querySelectorAll('.see-project-btn');
+seeProjectBtn.forEach((e) => {
+  e.addEventListener('click', () => {
+    
   });
 });
