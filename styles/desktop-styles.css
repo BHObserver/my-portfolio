@@ -403,6 +403,10 @@
   }
 
   /* Add Pop-up */
+  .hide {
+    display: none;
+  }
+
   .blur-bg {
     position: fixed;
     width: 100%;
