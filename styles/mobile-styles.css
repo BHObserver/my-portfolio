@@ -333,6 +333,14 @@
 
   /* Add Pop-up */
 
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
   .blur-bg {
     position: fixed;
     width: 100%;
