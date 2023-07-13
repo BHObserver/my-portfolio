@@ -30,6 +30,10 @@
     width: 56.9vw;
   }
 
+  .about-me-container:hover {
+    transform: scale(1.2);
+  }
+
   .bottom-arrow {
     margin: 3em 0 5em 0;
     padding-bottom: 10vw;
@@ -233,6 +237,8 @@
     width: 100%;
     margin-top: 2em;
     margin-bottom: 1em;
+
+    transition: all 1s ease-in-out;
   }
 
   .about-me-container {
