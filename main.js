@@ -36,7 +36,7 @@ workSection.appendChild(projectGrid);
 const projects = [
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the first one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/todo/index.html',
@@ -44,7 +44,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the second one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/randomcard/index.html',
@@ -52,7 +52,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the third one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/patatapcloneproject/index.html',
@@ -60,7 +60,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the fourth one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/message/index.html',
@@ -68,7 +68,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the fifth one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/mazegame/index.html',
@@ -76,7 +76,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the sixth one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/colorgame/index.html',
