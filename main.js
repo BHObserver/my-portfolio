@@ -132,8 +132,8 @@ const popUpDescription = document.querySelector('.pop-up-description');
 const seeProjectBtn = document.querySelectorAll('.see-project-btn');
 const cancelMobile = document.querySelector('.close-pop-up-mobile');
 const cancelDesktop = document.querySelector('.close-pop-up');
-const liveBtn = document.querySelector('.see-live-btn').querySelector('a');
-const sourceBtn = document.querySelector('.see-source-btn').querySelector('a');
+const liveBtn = document.querySelector('.see-live-btn');
+const sourceBtn = document.querySelector('.see-source-btn');
 const arr = Array.from(seeProjectBtn);
 let targetCard;
 let targetCardTitle;
@@ -153,9 +153,13 @@ seeProjectBtn.forEach((e) => {
     popUpHeading.appendChild(targetCardTitle);
     popUpHeading.appendChild(techList);
     descriptionElement.innerHTML = description;
-    liveBtn.setAttribute('href', live);
-    sourceBtn.setAttribute('href', source);
     popUp.classList.toggle('hide');
+    liveBtn.addEventListener('click', () => {
+      window.location.href = live;
+    });
+    sourceBtn.addEventListener('click', () => {
+      window.location.href = source;
+    });
   });
 });
 
@@ -166,8 +170,8 @@ cancelDesktop.addEventListener('click', () => {
   targetCardTitle.classList.add('project-title');
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
-  liveBtn.removeAttribute('href');
-  sourceBtn.removeAttribute('href');
+  /* liveBtn.removeAttribute('href');
+  sourceBtn.removeAttribute('href'); */
 });
 
 cancelMobile.addEventListener('click', () => {
@@ -177,8 +181,8 @@ cancelMobile.addEventListener('click', () => {
   targetCardTitle.classList.add('project-title');
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
-  liveBtn.removeAttribute('href');
-  sourceBtn.removeAttribute('href');
+  /* liveBtn.removeAttribute('href');
+  sourceBtn.removeAttribute('href'); */
 });
 
 document.addEventListener('keydown', (event) => {
@@ -189,8 +193,8 @@ document.addEventListener('keydown', (event) => {
     targetCardTitle.classList.add('project-title');
     targetCard.insertBefore(targetCardTitle, targetCardBtns);
     targetCard.insertBefore(techList, targetCardBtns);
-    liveBtn.removeAttribute('href');
-    sourceBtn.removeAttribute('href');
+    /* liveBtn.removeAttribute('href');
+    sourceBtn.removeAttribute('href'); */
   }
 });
 
