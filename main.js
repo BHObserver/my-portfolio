@@ -36,7 +36,7 @@ workSection.appendChild(projectGrid);
 const projects = [
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the first one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/todo/index.html',
@@ -44,7 +44,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the second one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/randomcard/index.html',
@@ -52,7 +52,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the third one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/patatapcloneproject/index.html',
@@ -60,7 +60,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the fourth one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/message/index.html',
@@ -68,7 +68,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the fifth one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/mazegame/index.html',
@@ -76,7 +76,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'This is the sixth one',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/colorgame/index.html',
@@ -132,8 +132,8 @@ const popUpDescription = document.querySelector('.pop-up-description');
 const seeProjectBtn = document.querySelectorAll('.see-project-btn');
 const cancelMobile = document.querySelector('.close-pop-up-mobile');
 const cancelDesktop = document.querySelector('.close-pop-up');
-const liveBtn = document.querySelector('.see-live-btn').querySelector('a');
-const sourceBtn = document.querySelector('.see-source-btn').querySelector('a');
+const liveBtn = document.querySelector('.see-live-btn');
+const sourceBtn = document.querySelector('.see-source-btn');
 const arr = Array.from(seeProjectBtn);
 let targetCard;
 let targetCardTitle;
@@ -153,9 +153,13 @@ seeProjectBtn.forEach((e) => {
     popUpHeading.appendChild(targetCardTitle);
     popUpHeading.appendChild(techList);
     descriptionElement.innerHTML = description;
-    liveBtn.setAttribute('href', live);
-    sourceBtn.setAttribute('href', source);
     popUp.classList.toggle('hide');
+    liveBtn.addEventListener('click', () => {
+      window.location.href = live;
+    });
+    sourceBtn.addEventListener('click', () => {
+      window.location.href = source;
+    });
   });
 });
 
@@ -166,8 +170,8 @@ cancelDesktop.addEventListener('click', () => {
   targetCardTitle.classList.add('project-title');
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
-  liveBtn.removeAttribute('href');
-  sourceBtn.removeAttribute('href');
+  /* liveBtn.removeAttribute('href');
+  sourceBtn.removeAttribute('href'); */
 });
 
 cancelMobile.addEventListener('click', () => {
@@ -177,8 +181,8 @@ cancelMobile.addEventListener('click', () => {
   targetCardTitle.classList.add('project-title');
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
-  liveBtn.removeAttribute('href');
-  sourceBtn.removeAttribute('href');
+  /* liveBtn.removeAttribute('href');
+  sourceBtn.removeAttribute('href'); */
 });
 
 document.addEventListener('keydown', (event) => {
@@ -189,8 +193,28 @@ document.addEventListener('keydown', (event) => {
     targetCardTitle.classList.add('project-title');
     targetCard.insertBefore(targetCardTitle, targetCardBtns);
     targetCard.insertBefore(techList, targetCardBtns);
-    liveBtn.removeAttribute('href');
-    sourceBtn.removeAttribute('href');
+    /* liveBtn.removeAttribute('href');
+    sourceBtn.removeAttribute('href'); */
+  }
+});
+
+/* Contact Validation */
+const form = document.querySelector('.form');
+const fullNameInput = form.full_name;
+/* const firstNameInput = form.first_name;
+const lastNameInput = form.last_name;
+const massageInput = form.message; */
+const errorElement = document.querySelector('.validation-message');
+const errorMessage = 'The email address should be in lowercase.';
+const emailInput = form.email;
+const submitBtn = form.submit;
+
+submitBtn.addEventListener('click', (event) => {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorElement.textContent = errorMessage;
+    event.preventDefault();
+  } else {
+    fullNameInput.removeAttribute('required');
   }
 });
 
