@@ -514,5 +514,10 @@
     border: none;
     border-radius: 4px;
   }
+
+  .contact p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff000f;
+  }
   
 }
