@@ -201,9 +201,9 @@ document.addEventListener('keydown', (event) => {
 /* Contact Validation */
 const form = document.querySelector('.form');
 const fullNameInput = form.full_name;
-/* const firstNameInput = form.first_name;
+const firstNameInput = form.first_name;
 const lastNameInput = form.last_name;
-const massageInput = form.message; */
+const messageInput = form.message;
 const errorElement = document.querySelector('.validation-message');
 const errorMessage = 'The email address should be in lowercase.';
 const emailInput = form.email;
@@ -213,9 +213,60 @@ submitBtn.addEventListener('click', (event) => {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
     errorElement.textContent = errorMessage;
     event.preventDefault();
+  }
+  if (window.innerWidth > 376) {
+    firstNameInput.removeAttribute('required');
+    lastNameInput.removeAttribute('required');
   } else {
     fullNameInput.removeAttribute('required');
   }
+});
+
+/* Functionaliy to preserve data in local storage */
+const formData = {
+  fullName: '',
+  firstName: '',
+  lastName: '',
+  email: '',
+  message: '',
+};
+
+if (localStorage.formDataStorage) {
+  formData.fullName = JSON.parse(localStorage.formDataStorage).fullName;
+  formData.firstName = JSON.parse(localStorage.formDataStorage).firstName;
+  formData.lastName = JSON.parse(localStorage.formDataStorage).lastName;
+  formData.email = JSON.parse(localStorage.formDataStorage).email;
+  formData.message = JSON.parse(localStorage.formDataStorage).message;
+  fullNameInput.value = formData.fullName;
+  firstNameInput.value = formData.firstName;
+  lastNameInput.value = formData.lastName;
+  emailInput.value = formData.email;
+  messageInput.value = formData.message;
+}
+
+fullNameInput.addEventListener('input', () => {
+  formData.fullName = fullNameInput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
+});
+
+firstNameInput.addEventListener('input', () => {
+  formData.firstName = firstNameInput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
+});
+
+lastNameInput.addEventListener('input', () => {
+  formData.lastName = lastNameInput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
+});
+
+emailInput.addEventListener('input', () => {
+  formData.email = emailInput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
+});
+
+messageInput.addEventListener('input', () => {
+  formData.message = messageInput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
 });
 
 /* Animation feature > Appear and disappear Nav-bar by clicking a specific key */
