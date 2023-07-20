@@ -567,4 +567,10 @@
   .mobile-pop-up-btn {
     display: none;
   }
+
+  .contact p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff000f;
+    font-style: bold;
+  }
 }
