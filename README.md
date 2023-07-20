@@ -26,10 +26,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 BH-Observer Portfolio <a name="about-project"></a>
 
 
-**[Portfolio]** is a website that is used to showcase the projects and abilities.
+**Portfolio** is a website that is used to showcase the projects and abilities.
 
 ## 🛠 Built With <a name="built-with"></a>
 
