@@ -196,6 +196,23 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
+/* Contact Validation */
+const form = document.querySelector('.form');
+const fullNameInput = form.full_name;
+const errorElement = document.querySelector('.validation-message');
+const errorMessage = 'The email address should be in lowercase.';
+const emailInput = form.email;
+const submitBtn = form.submit;
+
+submitBtn.addEventListener('click', (event) => {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorElement.textContent = errorMessage;
+    event.preventDefault();
+  } else {
+    fullNameInput.removeAttribute('required');
+  }
+});
+
 /* Animation feature > Appear and disappear Nav-bar by clicking a specific key */
 /* Animation feature > Nav-bar link to specific section */
 /* Arrow hover feature > Make the arrow before the work section clickable and giving it a hover */
