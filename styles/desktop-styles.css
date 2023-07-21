@@ -437,10 +437,11 @@
     background-color: white;
     margin: 0 auto;
     max-width: 920px;
-    max-height: 1083px;
     width: 63.889vw;
     border-radius: 8px;
     margin-top: 4vw;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .close-pop-up {
