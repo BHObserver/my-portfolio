@@ -39,9 +39,12 @@
   <li>CSS3</li>
 </ul>
 
-## 🔭 Future Features <a name="future-features"></a>
-- [Adding contact form] **[Contact_Form]**
-- [Adding new visuals ] **[Responsive]**
+### Key Features <a name="key-features"></a>
+
+- **Mobile First**
+- **Responsive**
+- **Navigation Bar**
+- **Contact Info**
 
 <!-- LIVE DEMO -->
 
