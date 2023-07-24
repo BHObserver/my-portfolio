@@ -39,6 +39,9 @@
   <li>CSS3</li>
 </ul>
 
+## 🔭 Future Features <a name="future-features"></a>
+- [Adding contact form] **[Contact_Form]**
+- [Adding new visuals ] **[Responsive]**
 
 <!-- LIVE DEMO -->
 
