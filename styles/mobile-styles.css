@@ -12,8 +12,8 @@
   .nav-mobile {
     display: none;
   }
-  
-  .nav-mobile ul{
+
+  .nav-mobile ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -30,14 +30,14 @@
   }
 
   .nav-mobile ul a {
-    font-family: Inter;
-    color: #3A4A42;
+    font-family: Inter sans-serif;
+    color: #3a4a42;
     font-size: 32px;
     font-weight: 600;
     line-height: 44px;
     text-align: left;
   }
-  
+
   .cross {
     display: none;
     float: right;
@@ -351,7 +351,7 @@
     top: 0;
     box-sizing: border-box;
   }
-  
+
   .pop-up {
     background-color: white;
     margin: 0 auto;
@@ -384,7 +384,7 @@
     padding-bottom: 5vw;
     margin-bottom: 7vw;
   }
-  
+
   .img-pop-up {
     display: none;
   }
@@ -427,7 +427,7 @@
   .pop-up-heading h3 {
     margin: 0;
   }
-  
+
   .pop-up-heading .tech-stack {
     display: flex;
     flex-wrap: wrap;
@@ -436,7 +436,7 @@
     margin: 0;
     margin-bottom: 20px;
   }
-  
+
   .pop-up-heading .tag {
     display: flex;
     justify-content: center;
@@ -457,7 +457,7 @@
   .pop-up-heading ul.tech-stack li:nth-child(4) {
     display: none;
   }
-  
+
   .pop-up-description {
     color: #344563;
     font-family: Inter, sans-serif;
@@ -467,7 +467,7 @@
     font-size: 16px;
     line-height: 2.2vh;
     padding-left: 10px;
-  }  
+  }
 
   .see-live-btn {
     display: flex;
@@ -488,7 +488,7 @@
     border: none;
     border-radius: 4px;
   }
-  
+
   .see-source-btn {
     display: flex;
     align-items: center;
@@ -508,5 +508,4 @@
     border: none;
     border-radius: 4px;
   }
-  
 }
