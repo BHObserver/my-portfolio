@@ -11,3 +11,16 @@ navBtn.addEventListener('click', () => {
   navMobile.style.display = 'block';
 });
 
+cross.addEventListener('click', () => {
+  header.classList.remove('mobile-menu');
+  cross.style.display = 'none';
+  navMobile.style.display = 'none';
+});
+
+navItems.forEach((element) => {
+  element.addEventListener('click', () => {
+    header.classList.remove('mobile-menu');
+    cross.style.display = 'none';
+    navMobile.style.display = 'none';
+  });
+});
