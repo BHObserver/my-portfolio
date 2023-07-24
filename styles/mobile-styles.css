@@ -323,12 +323,13 @@
   .mobile-menu {
     background-color: #fff;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
     position: fixed;
+    border-radius: 0 0 40px 40px;
   }
 }
