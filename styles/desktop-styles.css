@@ -150,17 +150,6 @@
     margin-top: calc(17px + 0.37219vw);
   }
 
-  /* .see-project-btn {
-    border: none;
-    color: #fff;
-    width: 7.5vw;
-    height: 3.5vw;
-    padding: 7px 0 7px 0;
-    font-size: calc(2.3px + 0.926917vw);
-    background: #36b37f;
-    border-radius: 4px;
-  } */
-
   .see-project-btn {
     display: flex;
     justify-content: center;
