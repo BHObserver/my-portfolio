@@ -171,6 +171,7 @@ cancelDesktop.addEventListener('click', () => {
   targetCardTitle.classList.add('project-title');
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
+  targetCard = undefined;
   /* liveBtn.removeAttribute('href');
   sourceBtn.removeAttribute('href'); */
 });
@@ -182,18 +183,20 @@ cancelMobile.addEventListener('click', () => {
   targetCardTitle.classList.add('project-title');
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
+  targetCard = undefined;
   /* liveBtn.removeAttribute('href');
   sourceBtn.removeAttribute('href'); */
 });
 
 document.addEventListener('keydown', (event) => {
-  if (event.keyCode === 27) {
+  if (event.keyCode === 27 && targetCard !== undefined) {
     popUp.classList.add('hide');
     popUpHeading.removeChild(targetCardTitle);
     popUpHeading.removeChild(techList);
     targetCardTitle.classList.add('project-title');
     targetCard.insertBefore(targetCardTitle, targetCardBtns);
     targetCard.insertBefore(techList, targetCardBtns);
+    targetCard = undefined;
     /* liveBtn.removeAttribute('href');
     sourceBtn.removeAttribute('href'); */
   }
