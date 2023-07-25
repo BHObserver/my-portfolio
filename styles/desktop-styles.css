@@ -3,6 +3,10 @@
     display: none;
   }
 
+  .nav-mobile {
+    display: none;
+  }
+
   .nav-desktop {
     display: flex;
     justify-content: center;
