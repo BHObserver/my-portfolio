@@ -15,28 +15,30 @@
 </head>
 <body>
     <header class="header">
-            <nav class="nav-bar">
-                <img src="assets/logo.svg" id="logo" alt="Page logo">
-                <img src="assets/nav-burger.svg" class="nav-btn" alt="Button to navigate">
-            </nav>
+        <nav class="nav-bar">
+            <img src="assets/logo.svg" id="logo" alt="Page logo">
+            <img src="assets/nav-burger.svg" class="nav-btn" alt="Button to navigate">
+        </nav>
     </header>
     <main>
-        <div class="header-desktop">
-            <div class="cross"></div>
-            <nav class="nav-desktop">
-                <ul>
-                    <li><a href="#work_section">Portfolio</a></li>
-                    <li><a href="#about_section">About</a></li>
-                    <li><a href="#contact_section">Contact</a></li>
-                </ul>
-            </nav>
-            <nav class="nav-mobile">
-                <ul>
-                    <li><a href="#work_section">Portfolio</a></li>
-                    <li><a href="#about_section">About</a></li>
-                    <li><a href="#contact_section">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="mobile-menu-container">
+            <div class="header-desktop">
+                <div class="cross"></div>
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="#work_section">Portfolio</a></li>
+                        <li><a href="#about_section">About</a></li>
+                        <li><a href="#contact_section">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-mobile">
+                    <ul>
+                        <li><a href="#work_section">Portfolio</a></li>
+                        <li><a href="#about_section">About</a></li>
+                        <li><a href="#contact_section">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         <div class="blur-bg hide">
             <div class="pop-up">
@@ -251,8 +253,8 @@
             method="POST">
                 <input type="text" class="mobile-form" required maxlength="30" placeholder="Full name">
                 <div class="desktop-form">
-                    <input type="text" name="first_name" required maxlength="30" placeholder="First Name">
-                    <input type="text" name="list_name" required maxlength="30" placeholder="Last Name">
+                    <input type="text" name="full_name" required maxlength="30" placeholder="Full Name">
+                    <!-- <input type="text" name="last_name" required maxlength="30" placeholder="Last Name"> -->
                 </div>
                 <input type="email" name="email" required maxlength="30" placeholder="Email Address">
                 <textarea type="text" name="message" required class="textarea" maxlength="500" placeholder="Hey I'd like to connect too"></textarea>
@@ -260,7 +262,6 @@
             </form>
             <span class="email">bhobserver0@gmail.com</span>
         </section>
-
         <footer>
             <div class="icon-container">
                 <ul class="icons">
