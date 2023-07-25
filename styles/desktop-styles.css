@@ -133,28 +133,28 @@
     margin-top: 2px;
     margin-right: 4px;
     padding: calc(0.5px + 0.535917vw);
-    font-size: calc(2.3px + 0.926917vw);
+    font-size: calc(0.7px + 0.926917vw);
     white-space: nowrap;
     border: none;
     color: #3a4a42;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    border-radius: 4px;
+    font-weight: 700;
+    border-radius: 2px;
   }
 
   .btn-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0.6vw;
+    margin-top: calc(17px + 0.37219vw);
   }
 
   /* .see-project-btn {
     border: none;
     color: #fff;
     width: 7.5vw;
-    height: 3vw;
+    height: 3.5vw;
     padding: 7px 0 7px 0;
     font-size: calc(2.3px + 0.926917vw);
     background: #36b37f;
@@ -349,7 +349,7 @@
 
   .desktop-form input {
     width: 100%;
-    max-width: 330px;
+    max-width: 768px;
     max-height: 48px;
     height: 75%;
     border-radius: 4px;
