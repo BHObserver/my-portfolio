@@ -340,7 +340,7 @@
     position: fixed;
     border-radius: 0 0 40px 40px;
   }
-  
+
   /* Add Pop-up */
 
   .hide {
@@ -475,7 +475,6 @@
     width: 100%;
     font-weight: 400;
     font-size: 16px;
-    line-height: 2.2vh;
     padding-left: 10px;
   }
 
