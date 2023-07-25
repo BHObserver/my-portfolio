@@ -320,6 +320,14 @@
     align-items: center;
   }
 
+  .mobile-menu-container {
+    display: none;
+    background-color: #D0D9D4;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+  }
+
   .mobile-menu {
     background-color: #fff;
     width: 100vw;
