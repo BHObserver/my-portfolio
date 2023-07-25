@@ -185,6 +185,18 @@ cancelMobile.addEventListener('click', () => {
   sourceBtn.removeAttribute('href'); */
 });
 
+document.addEventListener('keydown', (event) => {
+  if (event.keyCode === 27) {
+    popUp.classList.add('hide');
+    popUpHeading.removeChild(targetCardTitle);
+    popUpHeading.removeChild(techList);
+    targetCardTitle.classList.add('project-title');
+    targetCard.insertBefore(targetCardTitle, targetCardBtns);
+    targetCard.insertBefore(techList, targetCardBtns);
+    /* liveBtn.removeAttribute('href');
+    sourceBtn.removeAttribute('href'); */
+  }
+});
 
 /* Animation feature > Appear and disappear Nav-bar by clicking a specific key */
 /* Animation feature > Nav-bar link to specific section */
