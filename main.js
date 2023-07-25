@@ -163,16 +163,7 @@ seeProjectBtn.forEach((e) => {
   });
 });
 
-cancelDesktop.addEventListener('click', () => {
-  popUp.classList.add('hide');
-  popUpHeading.removeChild(targetCardTitle);
-  popUpHeading.removeChild(techList);
-  targetCardTitle.classList.add('project-title');
-  targetCard.insertBefore(targetCardTitle, targetCardBtns);
-  targetCard.insertBefore(techList, targetCardBtns);
-  /* liveBtn.removeAttribute('href');
-  sourceBtn.removeAttribute('href'); */
-});
+
 
 cancelMobile.addEventListener('click', () => {
   popUp.classList.add('hide');
