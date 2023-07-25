@@ -172,8 +172,6 @@ cancelDesktop.addEventListener('click', () => {
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
   targetCard = undefined;
-  /* liveBtn.removeAttribute('href');
-  sourceBtn.removeAttribute('href'); */
 });
 
 cancelMobile.addEventListener('click', () => {
@@ -184,8 +182,6 @@ cancelMobile.addEventListener('click', () => {
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
   targetCard = undefined;
-  /* liveBtn.removeAttribute('href');
-  sourceBtn.removeAttribute('href'); */
 });
 
 document.addEventListener('keydown', (event) => {
@@ -197,8 +193,6 @@ document.addEventListener('keydown', (event) => {
     targetCard.insertBefore(targetCardTitle, targetCardBtns);
     targetCard.insertBefore(techList, targetCardBtns);
     targetCard = undefined;
-    /* liveBtn.removeAttribute('href');
-    sourceBtn.removeAttribute('href'); */
   }
 });
 
