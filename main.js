@@ -197,15 +197,15 @@ document.addEventListener('keydown', (event) => {
 });
 
 /* Contact Validation */
-const form = document.querySelector('.form');
-const fullNameInput = form.full_name;
-const firstNameInput = form.first_name;
-const lastNameInput = form.last_name;
-const messageInput = form.message;
+const formContact = document.querySelector('.form');
+const fullNameInput = formContact.full_name;
+const firstNameInput = formContact.first_name;
+const lastNameInput = formContact.last_name;
+const messageInput = formContact.message;
 const errorElement = document.querySelector('.validation-message');
 const errorMessage = 'The email address should be in lowercase.';
-const emailInput = form.email;
-const submitBtn = form.submit;
+const emailInput = formContact.email;
+const submitBtn = formContact.submit;
 
 submitBtn.addEventListener('click', (event) => {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
