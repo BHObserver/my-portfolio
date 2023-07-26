@@ -192,6 +192,23 @@ document.addEventListener('keydown', (event) => {
     targetCardTitle.classList.add('project-title');
     targetCard.insertBefore(targetCardTitle, targetCardBtns);
     targetCard.insertBefore(techList, targetCardBtns);
+  }
+});
+
+/* Contact Validation */
+const form = document.querySelector('.form');
+const fullNameInput = form.full_name;
+const errorElement = document.querySelector('.validation-message');
+const errorMessage = 'The email address should be in lowercase.';
+const emailInput = form.email;
+const submitBtn = form.submit;
+
+submitBtn.addEventListener('click', (event) => {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorElement.textContent = errorMessage;
+    event.preventDefault();
+  } else {
+    fullNameInput.removeAttribute('required');
     targetCard = undefined;
   }
 });

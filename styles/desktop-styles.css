@@ -567,4 +567,13 @@
   .mobile-pop-up-btn {
     display: none;
   }
+
+  .validation-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff000f;
+    font-weight: bold;
+  }
 }
