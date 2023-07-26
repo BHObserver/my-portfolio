@@ -209,7 +209,6 @@ submitBtn.addEventListener('click', (event) => {
     event.preventDefault();
   } else {
     fullNameInput.removeAttribute('required');
-=======
     targetCard = undefined;
   }
 });
