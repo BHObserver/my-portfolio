@@ -149,6 +149,7 @@
     align-items: center;
     margin-top: calc(17px + 0.37219vw);
   }
+
   .see-project-btn {
     display: flex;
     justify-content: center;
@@ -573,6 +574,6 @@
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ff000f;
-    font-style: bold;
+    font-weight: bold;
   }
 }
