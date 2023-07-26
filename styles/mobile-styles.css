@@ -519,12 +519,12 @@
     border: none;
     border-radius: 4px;
   }
-  
+
   .validation-message-container {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ff000f;
-  } 
+  }
 }
