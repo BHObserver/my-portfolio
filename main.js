@@ -199,7 +199,24 @@ document.addEventListener('keydown', (event) => {
 });
 
 /* Contact Validation */
+const form = document.querySelector('.form');
+const fullNameInput = form.full_name;
+/* const firstNameInput = form.first_name;
+const lastNameInput = form.last_name;
+const massageInput = form.message; */
+const errorElement = document.querySelector('.validation-message');
+const errorMessage = 'The email address should be in lowercase.';
+const emailInput = form.email;
+const submitBtn = form.submit;
 
+submitBtn.addEventListener('click', (event) => {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorElement.textContent = errorMessage;
+    event.preventDefault();
+  } else {
+    fullNameInput.removeAttribute('required');
+  }
+});
 
 /* Animation feature > Appear and disappear Nav-bar by clicking a specific key */
 /* Animation feature > Nav-bar link to specific section */
