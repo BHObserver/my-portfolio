@@ -269,7 +269,3 @@ messageInput.addEventListener('input', () => {
   localStorage.setItem('formDataStorage', JSON.stringify(formData));
 });
 
-/* Animation feature > Appear and disappear Nav-bar by clicking a specific key */
-/* Animation feature > Nav-bar link to specific section */
-/* Arrow hover feature > Make the arrow before the work section clickable and giving it a hover */
-/* Give nav-bar a green border */
