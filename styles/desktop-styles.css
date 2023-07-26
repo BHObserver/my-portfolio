@@ -133,33 +133,22 @@
     margin-top: 2px;
     margin-right: 4px;
     padding: calc(0.5px + 0.535917vw);
-    font-size: calc(2.3px + 0.926917vw);
+    font-size: calc(0.7px + 0.926917vw);
     white-space: nowrap;
     border: none;
     color: #3a4a42;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    border-radius: 4px;
+    font-weight: 700;
+    border-radius: 2px;
   }
 
   .btn-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0.6vw;
+    margin-top: calc(17px + 0.37219vw);
   }
-
-  /* .see-project-btn {
-    border: none;
-    color: #fff;
-    width: 7.5vw;
-    height: 3vw;
-    padding: 7px 0 7px 0;
-    font-size: calc(2.3px + 0.926917vw);
-    background: #36b37f;
-    border-radius: 4px;
-  } */
 
   .see-project-btn {
     display: flex;
@@ -249,6 +238,7 @@
     background-position: center;
     padding-top: 20px;
     width: 100%;
+
     /* margin-top: 2em; */
     margin-bottom: 1em;
   }
@@ -348,7 +338,7 @@
 
   .desktop-form input {
     width: 100%;
-    max-width: 330px;
+    max-width: 768px;
     max-height: 48px;
     height: 75%;
     border-radius: 4px;
@@ -432,15 +422,17 @@
     top: 0;
     box-sizing: border-box;
   }
-  
+
   .pop-up {
     background-color: white;
     margin: 0 auto;
     max-width: 920px;
-    max-height: 1083px;
     width: 63.889vw;
+    height: 90%;
     border-radius: 8px;
     margin-top: 4vw;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .close-pop-up {
@@ -454,7 +446,7 @@
     max-width: 920px;
     width: 61vw;
   }
-  
+
   .pop-up .btn-container {
     float: right;
     padding: 20px;
@@ -488,7 +480,7 @@
     color: white;
     text-decoration: none;
   }
-  
+
   .see-source-btn {
     display: flex;
     justify-content: flex-start;
@@ -514,7 +506,7 @@
     color: white;
     text-decoration: none;
   }
-  
+
   .pop-up-heading {
     max-width: 589px;
     max-height: 120px;
@@ -527,8 +519,8 @@
     font-size: 2.5vw;
     line-height: 3.5vw;
   }
-  
-  .pop-up-heading  h3{
+
+  .pop-up-heading h3 {
     margin: 0;
   }
 
@@ -548,7 +540,7 @@
     font-weight: 600;
     border-radius: 4px;
   }
-  
+
   .pop-up-description {
     color: #344563;
     font-family: Inter, sans-serif;
@@ -561,8 +553,9 @@
     line-height: 1.6em;
     padding: 20px;
     margin-top: 15px;
+    margin-bottom: 120px;
   }
-  
+
   .img-pop-up-mobile {
     display: none;
   }
@@ -570,7 +563,7 @@
   .close-pop-up-mobile {
     display: none;
   }
-  
+
   .mobile-pop-up-btn {
     display: none;
   }
