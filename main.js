@@ -197,7 +197,7 @@ document.addEventListener('keydown', (event) => {
 });
 
 /* Contact Validation */
-const form = document.querySelector('.form');
+let form = document.querySelector('.form');
 const fullNameInput = form.full_name;
 const firstNameInput = form.first_name;
 const lastNameInput = form.last_name;
