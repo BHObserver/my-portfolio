@@ -26,10 +26,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 BH-Observer Portfolio <a name="about-project"></a>
 
 
-**[Portfolio]** is a website that is used to showcase the projects and abilities.
+**Portfolio** is a website that is used to showcase the projects and abilities.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,6 +39,12 @@
   <li>CSS3</li>
 </ul>
 
+### Key Features <a name="key-features"></a>
+
+- **Mobile First**
+- **Responsive**
+- **Navigation Bar**
+- **Contact Info**
 
 <!-- LIVE DEMO -->
 
@@ -74,12 +80,10 @@ Example commands:
 ```sh
   cd my-folder
 
-  git clone https://github.com/BHObserver/portfolio.git
+  git clone https://github.com/BHObserver/my-portfolio.git
   
   cd Portfolio
 ```
-### Usage
-User need to download or clone the code and open index.html file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,8 +100,8 @@ User need to download or clone the code and open index.html file.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [Adding contact form] **[Contact_Form]**
-- [Adding new visuals ] **[Responsive]**
+
+**[Desktop Version Changes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,9 +123,9 @@ Contributions, issues, and feature requests are welcome!
 
 <!-- ACKNOWLEDGEMENTS -->
 
+I would like to say that, I am really greatful to the Microverse community.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to say that, I am really greatful to the Microverse community.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
