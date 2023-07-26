@@ -193,8 +193,6 @@ document.addEventListener('keydown', (event) => {
     targetCardTitle.classList.add('project-title');
     targetCard.insertBefore(targetCardTitle, targetCardBtns);
     targetCard.insertBefore(techList, targetCardBtns);
-    /* liveBtn.removeAttribute('href');
-    sourceBtn.removeAttribute('href'); */
   }
 });
 
