@@ -201,9 +201,6 @@ document.addEventListener('keydown', (event) => {
 /* Contact Validation */
 const form = document.querySelector('.form');
 const fullNameInput = form.full_name;
-/* const firstNameInput = form.first_name;
-const lastNameInput = form.last_name;
-const massageInput = form.message; */
 const errorElement = document.querySelector('.validation-message');
 const errorMessage = 'The email address should be in lowercase.';
 const emailInput = form.email;
