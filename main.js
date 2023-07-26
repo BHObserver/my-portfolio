@@ -1,20 +1,20 @@
-/* eslint-disable linebreak-style */
-
-/* Add mobile menue */
 const navBtn = document.querySelector('.nav-btn');
 const header = document.querySelector('.header-desktop');
+const menuContainer = document.querySelector('.mobile-menu-container');
 const cross = document.querySelector('.cross');
 const navMobile = document.querySelector('.nav-mobile');
 const navItems = document.querySelectorAll('.header-desktop li');
 
 navBtn.addEventListener('click', () => {
   header.classList.add('mobile-menu');
+  menuContainer.style.display = 'block';
   cross.style.display = 'block';
   navMobile.style.display = 'block';
 });
 
 cross.addEventListener('click', () => {
   header.classList.remove('mobile-menu');
+  menuContainer.style.display = 'none';
   cross.style.display = 'none';
   navMobile.style.display = 'none';
 });
@@ -22,6 +22,7 @@ cross.addEventListener('click', () => {
 navItems.forEach((element) => {
   element.addEventListener('click', () => {
     header.classList.remove('mobile-menu');
+    menuContainer.style.display = 'none';
     cross.style.display = 'none';
     navMobile.style.display = 'none';
   });
@@ -36,7 +37,7 @@ workSection.appendChild(projectGrid);
 const projects = [
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/todo/index.html',
@@ -44,7 +45,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/randomcard/index.html',
@@ -52,7 +53,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/patatapcloneproject/index.html',
@@ -60,7 +61,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/message/index.html',
@@ -68,7 +69,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/mazegame/index.html',
@@ -76,7 +77,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories <br> Gain+Glory',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae praesentium, earum consectetur, optio tempore, sed placeat perferendis veniam voluptas esse enim doloremque obcaecati eum possimus corporis minima facilis adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus velit quisquam fuga fugit iusto voluptatibus delectus quo quas fugiat rem cum maiores, aspernatur culpa praesentium sed, ab eos cupiditate.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
     image: '<img src="assets/Snapshoot Portfolio.jpg" class="img-pop-up" alt="portfolio-image">',
     techs: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     live: 'http://bh-observer.me/projects/colorgame/index.html',
@@ -170,8 +171,7 @@ cancelDesktop.addEventListener('click', () => {
   targetCardTitle.classList.add('project-title');
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
-  /* liveBtn.removeAttribute('href');
-  sourceBtn.removeAttribute('href'); */
+  targetCard = undefined;
 });
 
 cancelMobile.addEventListener('click', () => {
@@ -181,20 +181,18 @@ cancelMobile.addEventListener('click', () => {
   targetCardTitle.classList.add('project-title');
   targetCard.insertBefore(targetCardTitle, targetCardBtns);
   targetCard.insertBefore(techList, targetCardBtns);
-  /* liveBtn.removeAttribute('href');
-  sourceBtn.removeAttribute('href'); */
+  targetCard = undefined;
 });
 
 document.addEventListener('keydown', (event) => {
-  if (event.keyCode === 27) {
+  if (event.keyCode === 27 && targetCard !== undefined) {
     popUp.classList.add('hide');
     popUpHeading.removeChild(targetCardTitle);
     popUpHeading.removeChild(techList);
     targetCardTitle.classList.add('project-title');
     targetCard.insertBefore(targetCardTitle, targetCardBtns);
     targetCard.insertBefore(techList, targetCardBtns);
-    /* liveBtn.removeAttribute('href');
-    sourceBtn.removeAttribute('href'); */
+    targetCard = undefined;
   }
 });
 
