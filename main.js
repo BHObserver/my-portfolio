@@ -203,13 +203,13 @@ const firstNameInput = formContact.first_name;
 const lastNameInput = formContact.last_name;
 const messageInput = formContact.message;
 const errorELement = document.querySelector('.validation-message');
-const errorMessage = 'The email address should be in lowercase.';
+const errorMEssage = 'The email address should be in lowercase.';
 const emailInput = formContact.email;
 const submitBtn = formContact.submit;
 
 submitBtn.addEventListener('click', (event) => {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-    errorELement.textContent = errorMessage;
+    errorELement.textContent = errorMEssage;
     event.preventDefault();
   }
   if (window.innerWidth > 376) {
