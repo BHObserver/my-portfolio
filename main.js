@@ -213,6 +213,77 @@ submitBtn.addEventListener('click', (event) => {
   }
 });
 
+/* Contact Validation */
+const formContact = document.querySelector('.form');
+const fullNameINput = formContact.full_name;
+const firstNameInput = formContact.first_name;
+const lastNameInput = formContact.last_name;
+const messageInput = formContact.message;
+const errorELement = document.querySelector('.validation-message');
+const errorMEssage = 'The email address should be in lowercase.';
+const emailINput = formContact.email;
+const submitBTn = formContact.submit;
+
+submitBTn.addEventListener('click', (event) => {
+  if (emailINput.value !== emailINput.value.toLowerCase()) {
+    errorELement.textContent = errorMEssage;
+    event.preventDefault();
+  }
+  if (window.innerWidth > 376) {
+    firstNameInput.removeAttribute('required');
+    lastNameInput.removeAttribute('required');
+  } else {
+    fullNameINput.removeAttribute('required');
+  }
+});
+
+/* Functionaliy to preserve data in local storage */
+const formData = {
+  fullName: '',
+  firstName: '',
+  lastName: '',
+  email: '',
+  message: '',
+};
+
+if (localStorage.formDataStorage) {
+  formData.fullName = JSON.parse(localStorage.formDataStorage).fullName;
+  formData.firstName = JSON.parse(localStorage.formDataStorage).firstName;
+  formData.lastName = JSON.parse(localStorage.formDataStorage).lastName;
+  formData.email = JSON.parse(localStorage.formDataStorage).email;
+  formData.message = JSON.parse(localStorage.formDataStorage).message;
+  fullNameINput.value = formData.fullName;
+  firstNameInput.value = formData.firstName;
+  lastNameInput.value = formData.lastName;
+  emailINput.value = formData.email;
+  messageInput.value = formData.message;
+}
+
+fullNameINput.addEventListener('input', () => {
+  formData.fullName = fullNameINput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
+});
+
+firstNameInput.addEventListener('input', () => {
+  formData.firstName = firstNameInput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
+});
+
+lastNameInput.addEventListener('input', () => {
+  formData.lastName = lastNameInput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
+});
+
+emailINput.addEventListener('input', () => {
+  formData.email = emailINput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
+});
+
+messageInput.addEventListener('input', () => {
+  formData.message = messageInput.value;
+  localStorage.setItem('formDataStorage', JSON.stringify(formData));
+});
+
 /* Animation feature > Appear and disappear Nav-bar by clicking a specific key */
 /* Animation feature > Nav-bar link to specific section */
 /* Arrow hover feature > Make the arrow before the work section clickable and giving it a hover */
