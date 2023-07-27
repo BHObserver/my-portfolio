@@ -198,7 +198,7 @@ document.addEventListener('keydown', (event) => {
 
 /* Contact Validation */
 const formContact = document.querySelector('.form');
-const fullNameInput = formContact.full_name;
+const fullNameINput = formContact.full_name;
 const firstNameInput = formContact.first_name;
 const lastNameInput = formContact.last_name;
 const messageInput = formContact.message;
@@ -216,7 +216,7 @@ submitBtn.addEventListener('click', (event) => {
     firstNameInput.removeAttribute('required');
     lastNameInput.removeAttribute('required');
   } else {
-    fullNameInput.removeAttribute('required');
+    fullNameINput.removeAttribute('required');
   }
 });
 
@@ -235,15 +235,15 @@ if (localStorage.formDataStorage) {
   formData.lastName = JSON.parse(localStorage.formDataStorage).lastName;
   formData.email = JSON.parse(localStorage.formDataStorage).email;
   formData.message = JSON.parse(localStorage.formDataStorage).message;
-  fullNameInput.value = formData.fullName;
+  fullNameINput.value = formData.fullName;
   firstNameInput.value = formData.firstName;
   lastNameInput.value = formData.lastName;
   emailInput.value = formData.email;
   messageInput.value = formData.message;
 }
 
-fullNameInput.addEventListener('input', () => {
-  formData.fullName = fullNameInput.value;
+fullNameINput.addEventListener('input', () => {
+  formData.fullName = fullNameINput.value;
   localStorage.setItem('formDataStorage', JSON.stringify(formData));
 });
 
