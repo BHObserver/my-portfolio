@@ -204,11 +204,11 @@ const lastNameInput = formContact.last_name;
 const messageInput = formContact.message;
 const errorELement = document.querySelector('.validation-message');
 const errorMEssage = 'The email address should be in lowercase.';
-const emailInput = formContact.email;
-const submitBtn = formContact.submit;
+const emailINput = formContact.email;
+const submitBTn = formContact.submit;
 
-submitBtn.addEventListener('click', (event) => {
-  if (emailInput.value !== emailInput.value.toLowerCase()) {
+submitBTn.addEventListener('click', (event) => {
+  if (emailINput.value !== emailINput.value.toLowerCase()) {
     errorELement.textContent = errorMEssage;
     event.preventDefault();
   }
@@ -238,7 +238,7 @@ if (localStorage.formDataStorage) {
   fullNameINput.value = formData.fullName;
   firstNameInput.value = formData.firstName;
   lastNameInput.value = formData.lastName;
-  emailInput.value = formData.email;
+  emailINput.value = formData.email;
   messageInput.value = formData.message;
 }
 
@@ -257,8 +257,8 @@ lastNameInput.addEventListener('input', () => {
   localStorage.setItem('formDataStorage', JSON.stringify(formData));
 });
 
-emailInput.addEventListener('input', () => {
-  formData.email = emailInput.value;
+emailINput.addEventListener('input', () => {
+  formData.email = emailINput.value;
   localStorage.setItem('formDataStorage', JSON.stringify(formData));
 });
 
