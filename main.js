@@ -202,14 +202,14 @@ const fullNameINput = formContact.full_name;
 const firstNameInput = formContact.first_name;
 const lastNameInput = formContact.last_name;
 const messageInput = formContact.message;
-const errorElement = document.querySelector('.validation-message');
+const errorELement = document.querySelector('.validation-message');
 const errorMessage = 'The email address should be in lowercase.';
 const emailInput = formContact.email;
 const submitBtn = formContact.submit;
 
 submitBtn.addEventListener('click', (event) => {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-    errorElement.textContent = errorMessage;
+    errorELement.textContent = errorMessage;
     event.preventDefault();
   }
   if (window.innerWidth > 376) {
