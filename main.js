@@ -26,6 +26,15 @@ navItems.forEach((element) => {
     cross.style.display = 'none';
     navMobile.style.display = 'none';
   });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.keyCode === 27) {
+      header.classList.remove('mobile-menu');
+      menuContainer.style.display = 'none';
+      cross.style.display = 'none';
+    /* navMobile.style.display = 'none'; */
+    }
+  });
 });
 
 // Refactor Project Section
